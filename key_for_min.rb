@@ -12,3 +12,34 @@ def key_for_min_value(name_hash)
   end
  lowest_key
 end
+
+
+
+def key_for_min_value(name_hash)
+  low_val = nil 
+  low_key = nil
+  name_hash.each do |k,v|
+    name_hash == nil || v < low_val
+    low_val = v 
+    low_key = k
+  end 
+  k
+end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
